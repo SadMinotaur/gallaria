@@ -1,0 +1,57 @@
+@import 'index.scss';
+
+.logoImage {
+  margin-left: 17px;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  height: 329px;
+}
+
+.buttons li {
+  padding-left: 12px;
+  height: 50px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  font-family: SegoeUI;
+
+}
+
+.buttons li:hover {
+  background: #6db9d5;
+}
+
+.buttons a:hover {
+  color: white;
+}
+
+.buttons a {
+  color: #7e7d7e;
+  text-decoration: none;
+}
+
+.buttons a:active {
+  background: #6db9d5;
+  color: white;
+}
+
+.about {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+.aboutText {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.leftBlock {
+  padding-top: 15px;
+  padding-left: 50px;
+  width: 231px;
+  height: 1615px;
+  background: #FFFF;
+  border: 1px solid #800;
+}
+

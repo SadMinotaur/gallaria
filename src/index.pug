@@ -1,12 +1,28 @@
 doctype html
 
 html(lang="en")
-    head
-        link(rel="stylesheet" href="/index.scss")
-        meta(charset="UTF-8")
-    body
-        table
-            th(class="padding")
-            th(class = "leftBlock")
-            th(class="background")
-            th(class="padding")
+  head
+    link(rel="stylesheet" href="/index.scss")
+    link(rel="stylesheet" href="/leftblock.scss")
+    link(href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet")
+    meta(charset="UTF-8")
+  body
+    .padding
+    .leftBlock
+      img(src="/pics/logo.png" alt="logo" class="logoImage")
+      .buttons
+        ul
+          li
+            a(href="/") HOME
+          li
+            a(href="/") VIDEOS
+          li
+            a(href="/") IMAGES
+          li
+            a(href="/") ARTICLES
+          li
+            a(href="/") FREEBIES
+      .about About Us
+      .aboutText Gluten de neuter planeta, acquirere mensa!
+    .background
+    .padding
