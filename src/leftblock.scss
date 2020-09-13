@@ -1,5 +1,12 @@
 @import 'index.scss';
 
+.leftBlock {
+  padding-top: 15px;
+  padding-left: 50px;
+  width: 231px;
+  height: 1615px;
+}
+
 .logoImage {
   margin-left: 17px;
   margin-bottom: 50px;
@@ -15,7 +22,6 @@
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
   font-family: SegoeUI;
-
 }
 
 .buttons li:hover {
@@ -40,18 +46,42 @@
   font-family: 'PT Sans', sans-serif;
   font-size: 32px;
   margin-bottom: 18px;
+  color: #959595;
 }
 
 .aboutText {
   font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  padding-right: 40px;
+  margin-bottom: 45px;
+  color: #959595;
 }
 
-.leftBlock {
-  padding-top: 15px;
-  padding-left: 50px;
-  width: 231px;
-  height: 1615px;
-  background: #FFFF;
-  border: 1px solid #800;
+.tagsContainer {
+  padding-left: 4px;
+  padding-bottom: 22px;
+  width: 100%;
+  //border: 1px solid #800;
 }
 
+.tagsLogo {
+  width: 100%;
+  display: flex;
+}
+
+.tagsText {
+  margin-top: 4px;
+  margin-left: 6px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 34px;
+  color: #959595;
+}
+
+.tagsButtons {
+}
+
+.tagsButtons button {
+  padding: 0;
+  margin:5px;
+  color: #7e7d7e;
+}
