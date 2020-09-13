@@ -17,8 +17,11 @@
 }
 
 .buttons li {
+  align-items: center;
   padding-left: 12px;
-  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
   border-bottom-left-radius: 2px;
   border-top-left-radius: 2px;
   font-family: SegoeUI;
@@ -35,6 +38,7 @@
 .buttons a {
   color: #7e7d7e;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .buttons a:active {
@@ -54,6 +58,7 @@
   font-size: 17px;
   padding-right: 40px;
   margin-bottom: 45px;
+  line-height: 25px;
   color: #959595;
 }
 
@@ -61,7 +66,6 @@
   padding-left: 4px;
   padding-bottom: 22px;
   width: 100%;
-  //border: 1px solid #800;
 }
 
 .tagsLogo {

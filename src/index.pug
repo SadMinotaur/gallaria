@@ -1,9 +1,13 @@
 doctype html
 
+// -
+//  var n = 0;
+
 html(lang="en")
   head
     link(rel="stylesheet" href="/index.scss")
     link(rel="stylesheet" href="/leftblock.scss")
+    link(rel="stylesheet" href="/maincolumn.scss")
     link(href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet")
     meta(charset="UTF-8")
   body
@@ -23,12 +27,13 @@ html(lang="en")
           li
             a(href="/") FREEBIES
       .about About Us
-      .aboutText Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa!Gluten de neuter planeta, acquirere mensa!Gluten de neuter planeta, acquirere mensa!Gluten de neuter planeta, acquirere mensa!Gluten de neuter planeta, acquirere mensa!
+      .aboutText Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa!
       .tagsContainer
         .tagsLogo
           img(src="/pics/tags.png" alt="tags")
           .tagsText Tags
       .tagsButtons
+        //while n < 9
         button() Video
         button() Video
         button() Video
@@ -38,3 +43,5 @@ html(lang="en")
         button() Video
         button() Video
         button() Video
+    .background
+      .topPadding
