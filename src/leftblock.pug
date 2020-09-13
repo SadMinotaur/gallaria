@@ -1,0 +1,28 @@
+link(rel="stylesheet" href="/leftblock.scss")
+
+mixin leftBlock()
+  .leftBlock
+    img(src="/pics/logo.png" alt="logo" class="logoImage")
+    .buttons
+      ul
+        li
+          a(href="/") HOME
+        li
+          a(href="/") VIDEOS
+        li
+          a(href="/") IMAGES
+        li
+          a(href="/") ARTICLES
+        li
+          a(href="/") FREEBIES
+    .about About Us
+    .aboutText Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa! Gluten de neuter planeta, acquirere mensa!
+    .tagsContainer
+      .tagsLogo
+        img(src="/pics/tags.png" alt="tags")
+        .tagsText Tags
+    -var n = 0;
+    .tagsButtons
+      while n < 9
+        button Videos
+        -n++;
