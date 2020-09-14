@@ -36,7 +36,7 @@
 }
 
 .buttons a {
-  color: #7e7d7e;
+  color: $textColor;
   text-decoration: none;
   font-size: 18px;
 }
@@ -50,7 +50,7 @@
   font-family: 'PT Sans', sans-serif;
   font-size: 32px;
   margin-bottom: 18px;
-  color: #959595;
+  color: $textColor;
 }
 
 .aboutText {
@@ -59,7 +59,7 @@
   padding-right: 40px;
   margin-bottom: 45px;
   line-height: 25px;
-  color: #959595;
+  color: $textColor;
 }
 
 .tagsContainer {
@@ -78,7 +78,7 @@
   margin-left: 6px;
   font-family: 'PT Sans', sans-serif;
   font-size: 34px;
-  color: #959595;
+  color: $textColor;
 }
 
 .tagsButtons {
@@ -89,5 +89,5 @@
   font-size: 12px;
   margin-right: 5px;
   margin-bottom: 10px;
-  color: #7e7d7e;
+  color: $textColor;
 }
