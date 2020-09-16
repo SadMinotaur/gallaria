@@ -1,0 +1,26 @@
+@import 'index.scss';
+
+.mainRectangle {
+  display: flex;
+  margin-top: 24px;
+  width: 600px;
+  margin-left: 47px;
+  height: 210px;
+  background: #FFFFFF;
+}
+
+.image {
+  width: 43%;
+  height: 100%;
+  background: #6db9d5;
+}
+
+.topTextDesc {
+  border: #880000 3px solid;
+  font-family: 'Open Sans', sans-serif;
+  color: $textColor;
+  padding: 12px;
+  font-size: 26px;
+  width: 315px;
+  height: 60px;
+}

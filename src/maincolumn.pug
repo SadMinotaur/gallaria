@@ -1,5 +1,7 @@
 link(rel="stylesheet" href="/maincolumn.scss")
 
+include contentbloc
+
 mixin mainColumn()
   .mainColumn
     .topPadding
@@ -20,3 +22,4 @@ mixin mainColumn()
         .changeViewText Change view :
         button(class = "changeViewButtonsLeft")
         button(class = "changeViewButtonsRight")
+      +contetBloc()
