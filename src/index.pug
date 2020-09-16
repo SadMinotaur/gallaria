@@ -1,5 +1,6 @@
 include leftblock
 include maincolumn
+include footer
 
 doctype html
 
@@ -11,5 +12,7 @@ html(lang="en")
     meta(charset="UTF-8")
   body
     .padding
-    +leftBlock
-    +mainColumn
+      .page
+        +leftBlock
+        +mainColumn
+      +pageFooter

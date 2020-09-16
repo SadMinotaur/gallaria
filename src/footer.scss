@@ -1,0 +1,19 @@
+@import 'index.scss';
+
+footer {
+  width: 100%;
+  height: 70px;
+  background: white;
+  display: flex;
+}
+
+.textFooter {
+  font-family: 'Open Sans', sans-serif;
+  color: $textColor;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.footerButtons {
+  justify-content: right;
+}

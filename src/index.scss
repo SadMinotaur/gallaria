@@ -48,9 +48,16 @@ table {
 }
 
 .padding {
-  width: 150px;
-  height: 1605px;
+  height: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 150px;
   background: #514d4d;
+}
+
+.page {
+  display: flex;
+  background: white;
 }
 
 body {
