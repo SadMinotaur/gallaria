@@ -4,7 +4,15 @@ mixin mainColumn()
   .mainColumn
     .topPadding
     .feed
-      .topElement
-        img(src="/pics/videoicon.png" alt="videoicon")
-        .boldTopText Featured
-        .topText Videos
+      .topElements
+        .label
+          img(src="/pics/videoicon.png" alt="video icon" class = "videoIcon")
+          .boldTopText Featured
+          .topText Videos
+        .shareButtons
+          button(class = "shareButtonLeft")
+          button(class = "shareButton")
+          button(class = "shareButton")
+          button(class = "shareButtonRight")
+      video(src = "" controls class = "video" alt = "Your browser does not support the video tag.")
+      .shareLabel Audax, castus axonas inciviliter attrahendam de teres, fatalis clinias.
