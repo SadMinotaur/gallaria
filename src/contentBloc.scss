@@ -3,24 +3,68 @@
 .mainRectangle {
   display: flex;
   margin-top: 24px;
-  width: 600px;
   margin-left: 47px;
+  width: 600px;
   height: 210px;
   background: #FFFFFF;
+  margin-bottom: 28px;
 }
 
 .image {
-  width: 43%;
-  height: 100%;
-  background: #6db9d5;
+  width: 258px;
+  height: 210px;
+}
+
+.description {
+  width: 342px;
+  height: 210px;
 }
 
 .topTextDesc {
-  border: #880000 3px solid;
-  font-family: 'Open Sans', sans-serif;
-  color: $textColor;
-  padding: 12px;
+  font-family: Sofia Pro Light;
+  padding: 10px 13px 10px 16px;
   font-size: 26px;
-  width: 315px;
+  line-height: 30px;
+  width: 314px;
   height: 60px;
+}
+
+.line {
+  margin-left: 18px;
+  margin-right: 18px;
+  border-bottom: #7e7d7e 2px solid;
+  height: 20px;
+}
+
+.bottomTextDesc {
+  font-family: Sofia Pro Light;
+  color: $textColor;
+  padding: 15px 13px 10px 18px;
+  font-size: 13px;
+  line-height: 20px;
+  width: 310px;
+  height: 60px;
+}
+
+.rightBottomButton {
+  border: #FFFFFF;
+  background: #dedede;
+  position: absolute;
+  margin-left: 309px;
+  margin-top: -9px;
+  height: 33px;
+  width: 33px;
+  border-top-left-radius: 33px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.videoCircle {
+  margin-left: -29px;
+  margin-top: 72px;
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background: #6cb9d4;
 }
