@@ -13,9 +13,13 @@ mixin mainColumn()
           .topText Videos
         .shareButtons
           button(class = "shareButtonLeft")
+            +social-media-link("fab fa-twitter")
           button(class = "shareButton")
+            +social-media-link("fab fa-facebook-f")
           button(class = "shareButton")
+            +social-media-link("fab fa-google")
           button(class = "shareButtonRight")
+            +social-media-link("fab fa-pinterest")
       video(src = "" controls class = "video" alt = "Your browser does not support the video tag.")
       .shareLabel Audax, castus axonas inciviliter attrahendam de teres, fatalis clinias.
       .changeView
@@ -26,3 +30,9 @@ mixin mainColumn()
       +contentBloc()
       +contentBloc()
       +contentBloc()
+
+
+mixin social-media-link(logo)
+  .social-media-link
+    a(href=``)
+      i(class=`${logo}`)

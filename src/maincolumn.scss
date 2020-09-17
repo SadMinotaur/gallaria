@@ -49,6 +49,10 @@
   border-bottom-left-radius: 5px;
 }
 
+.fab fa-twitter {
+  color: #FFFFFF;
+}
+
 .shareButton {
   width: 45px;
   height: 35px;
@@ -123,4 +127,12 @@
   width: 40px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+}
+
+.topElements button {
+  border: $textColor 1px solid;
+}
+
+.shareButtons button {
+  border: $textColor 1px solid;
 }
