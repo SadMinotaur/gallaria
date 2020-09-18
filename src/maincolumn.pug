@@ -25,7 +25,9 @@ mixin mainColumn()
       .changeView
         .changeViewText Change view :
         button(class = "changeViewButtonsLeft")
+          +social-media-link("fas fa-align-justify")
         button(class = "changeViewButtonsRight")
+          +social-media-link("fas fa-th-large")
       +contentBloc()
       +contentBloc()
       +contentBloc()
@@ -34,5 +36,5 @@ mixin mainColumn()
 
 mixin social-media-link(logo)
   .social-media-link
-    a(href=``)
+    a(href="")
       i(class=`${logo}`)
