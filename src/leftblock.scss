@@ -82,7 +82,9 @@
   color: $textColor;
 }
 
-.tagsButtons {
+.tagsButtons button:hover {
+  color: $textColor;
+  background: none;
 }
 
 .tagsButtons button {
