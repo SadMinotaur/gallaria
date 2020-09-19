@@ -21,7 +21,15 @@ mixin mainColumn()
           button(class = "shareButtonRight")
             +social-media-link("fab fa-pinterest")
       video(src = "" controls class = "video" alt = "Your browser does not support the video tag.")
-      .shareLabel Audax, castus axonas inciviliter attrahendam de teres, fatalis clinias.
+      .shareLabel
+        table
+          tr
+            th(class = "leftTh")
+              p Audax, castus axonas inciviliter attrahendam de teres, fatalis clinias.
+            th(class = "rightTh")
+              i(class="fas fa-link")  70
+              i(class="fas fa-heart")  150
+              i(class="fas fa-share-alt")
       .changeView
         .changeViewText Change view :
         button(class = "changeViewButtonsLeft")
