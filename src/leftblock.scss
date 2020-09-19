@@ -4,7 +4,7 @@
   padding-top: 15px;
   padding-left: 50px;
   width: 231px;
-  height: 1615px;
+  height: 1415px;
 }
 
 .logoImage {
@@ -88,8 +88,9 @@
 }
 
 .tagsButtons button {
-  padding: 0;
-  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
   margin-right: 5px;
   margin-bottom: 10px;
   color: $textColor;

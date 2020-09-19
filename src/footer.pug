@@ -4,9 +4,15 @@ mixin pageFooter()
   .pageFooter
     footer()
       .textFooter
-        .designed The gallaria is designed By Css Author
-        .links
-          a() Home |
-          a()  About Us |
-          a()  Contact Us
-      .footerButtons
+        table(class="")
+          tr
+            th(class="leftFooter")
+              .designed The gallaria is designed By Css Author
+              .links
+                a() Home |
+                a()  About Us |
+                a()  Contact Us
+            th(class = "footerButtons")
+              i(class = "fab fa-twitter")
+              i(class ="fab fa-facebook-f")
+              i(class ="fab fa-pinterest")

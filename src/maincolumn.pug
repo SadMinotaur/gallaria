@@ -13,13 +13,13 @@ mixin mainColumn()
           .topText Videos
         .shareButtons
           button(class = "shareButtonLeft")
-            +social-media-link("fab fa-twitter")
+            i(class = "fab fa-twitter")
           button(class = "shareButton")
-            +social-media-link("fab fa-facebook-f")
+            i(class ="fab fa-facebook-f")
           button(class = "shareButton")
-            +social-media-link("fab fa-google")
+            i(class ="fab fa-google")
           button(class = "shareButtonRight")
-            +social-media-link("fab fa-pinterest")
+            i(class ="fab fa-pinterest")
       video(src = "" controls class = "video" alt = "Your browser does not support the video tag.")
       .shareLabel
         table
@@ -33,16 +33,10 @@ mixin mainColumn()
       .changeView
         .changeViewText Change view :
         button(class = "changeViewButtonsLeft")
-          +social-media-link("fas fa-align-justify")
+          i(class ="fas fa-align-justify")
         button(class = "changeViewButtonsRight")
-          +social-media-link("fas fa-th-large")
+          i(class ="fas fa-th-large")
       +contentBlock()
       +contentBlock()
       +contentBlock()
       +contentBlock()
-
-
-mixin social-media-link(logo)
-  .social-media-link
-    a(href="")
-      i(class=`${logo}`)

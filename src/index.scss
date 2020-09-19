@@ -47,12 +47,16 @@ table {
   border-spacing: 0;
 }
 
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #514d4d;
+  display: flex;
+}
+
 .padding {
   height: 100%;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 150px;
-  background: #514d4d;
+  margin: auto;
 }
 
 .page {
@@ -60,9 +64,9 @@ table {
   background: white;
 }
 
-body {
-  display: flex;
-  // flex-direction: row;
+button:hover {
+  background: #6cb9d4;
+  color: #FFFFFF;
 }
 
 $textColor: #7e7d7e;
@@ -81,7 +85,3 @@ $textColor: #7e7d7e;
   src: url("/fonts/Sofia Pro Light.ttf");
 }
 
-button:hover {
-  background: #6cb9d4;
-  color: #FFFFFF;
-}
