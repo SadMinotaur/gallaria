@@ -81,20 +81,6 @@
   height: 323px;
 }
 
-.shareLabel {
-  background: #d9d9d9;
-  color: $textColor;
-  font-family: 'PT Sans', sans-serif;
-  padding-top: 5px;
-  padding-left: 10px;
-  display: flex;
-  flex-direction: row;
-  alignment: center;
-  margin-top: 8px;
-  width: 98.6%;
-  height: 22px;
-}
-
 .changeView {
   display: flex;
   justify-content: right;
@@ -141,15 +127,33 @@
   background: #6cb9d4;
 }
 
-.leftTh {
+.shareLabel {
+  background: #d9d9d9;
   color: $textColor;
+  font-family: 'PT Sans', sans-serif;
+  padding-top: 5px;
+  padding-left: 10px;
+  display: flex;
+  margin-top: 8px;
+  width: 98.5%;
+  height: 22px;
+}
+
+.shareLabel table {
+  width: 100%;
+}
+
+.leftTh {
+  text-align: left;
+  color: $textColor;
+  width: 80%;
 }
 
 .rightTh {
+  text-align: right;
   color: #6cb9d4;
   font-size: 15px;
-  text-align: right;
-  width: 29%;
+  width: 20%;
 }
 
 .rightTh i {
