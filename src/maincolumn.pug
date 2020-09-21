@@ -3,6 +3,11 @@ link(rel="stylesheet" href="/maincolumn.scss")
 include contentblock
 
 mixin mainColumn()
+  -
+    function test() {
+      var element = document.getElementById("mainRectangle");
+      element.classList.toggle("test");
+    }
   .mainColumn
     .topPadding
     .feed
@@ -25,14 +30,14 @@ mixin mainColumn()
         table
           tr
             th(class = "leftTh")
-              p Audax, castus axonas inciviliter attrahendam de teres, fatalis clinias.
+              p Audax, castus axonas inciviliter attrahendam de teres.
             th(class = "rightTh")
               i(class="fas fa-link")  70
               i(class="fas fa-heart")  150
               i(class="fas fa-share-alt")
       .changeView
         .changeViewText Change view :
-        button(class = "changeViewButtonsLeft")
+        button(class = "changeViewButtonsLeft" onclick = "test()")
           i(class ="fas fa-align-justify")
         button(class = "changeViewButtonsRight")
           i(class ="fas fa-th-large")
