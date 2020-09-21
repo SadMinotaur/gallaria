@@ -3,11 +3,6 @@ link(rel="stylesheet" href="/maincolumn.scss")
 include contentblock
 
 mixin mainColumn()
-  -
-    function test() {
-      var element = document.getElementById("mainRectangle");
-      element.classList.toggle("test");
-    }
   .mainColumn
     .topPadding
     .feed
@@ -37,9 +32,9 @@ mixin mainColumn()
               i(class="fas fa-share-alt")
       .changeView
         .changeViewText Change view :
-        button(class = "changeViewButtonsLeft" onclick = "test()")
+        button(class = "changeViewButtonsLeft" onclick = "listView()")
           i(class ="fas fa-align-justify")
-        button(class = "changeViewButtonsRight")
+        button(class = "changeViewButtonsRight" onclick = "gridView()")
           i(class ="fas fa-th-large")
       +contentBlock()
       +contentBlock()
