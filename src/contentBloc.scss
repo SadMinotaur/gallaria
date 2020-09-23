@@ -11,9 +11,11 @@
 }
 
 .secondRectangle {
-  border: red 2px solid;
+  box-shadow:  0 0 5px #514d4d;
+  background: #FFFFFF;
   width: 300px;
   height: 410px;
+  margin-bottom: 40px;
 }
 
 .image {
@@ -45,8 +47,7 @@
   padding: 8px 13px 10px 16px;
   font-size: 26px;
   line-height: 30px;
-  width: 314px;
-  height: 60px;
+  width: 280px;
 }
 
 .lineList {
@@ -66,12 +67,16 @@
   margin-right: 18px;
   padding-top: 5px;
   font-size: 10px;
+  width: 300px;
   color: $textColor;
-  border-bottom: #7e7d7e 2px solid;
   height: 20px;
 }
 
 .lineList i {
+  margin-right: 20px;
+}
+
+.lineGrid i {
   margin-right: 20px;
 }
 
@@ -91,34 +96,24 @@
   padding: 13px 13px 10px 18px;
   font-size: 13px;
   line-height: 20px;
-  width: 310px;
+  width: 280px;
   height: 60px;
 }
 
 .rightBottomButtonList {
   border: #FFFFFF;
   background: #dedede;
-  position: absolute;
-  margin-left: 308px;
-  margin-top: -14px;
   height: 33px;
   width: 33px;
   border-top-left-radius: 33px;
   color: #FFFFFF;
   text-align: right;
+  float: right;
+  margin-top: -15px;
 }
 
 .rightBottomButtonGrid {
-  border: #FFFFFF;
-  background: #dedede;
-  position: absolute;
-  margin-left: 308px;
-  margin-top: -14px;
-  height: 33px;
-  width: 33px;
-  border-top-left-radius: 33px;
-  color: #FFFFFF;
-  text-align: right;
+  display: none;
 }
 
 .videoCircle {

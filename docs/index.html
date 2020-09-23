@@ -1,13 +1,30 @@
-<link rel="stylesheet" href="leftblock.88d0f4d5.css">
-<link rel="stylesheet" href="maincolumn.39a4f4eb.css">
-<link rel="stylesheet" href="contentBloc.583705c0.css">
-<link rel="stylesheet" href="footer.c280423f.css"><!DOCTYPE html>
+<link rel="stylesheet" href="leftblock.6f9d9b81.css">
+<link rel="stylesheet" href="maincolumn.cce1434f.css">
+<link rel="stylesheet" href="contentBloc.d138b974.css">
+<link rel="stylesheet" href="footer.7fc73498.css"><!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="contentSwitch.3c22a932.js"></script>
-    <link rel="stylesheet" href="src.483b34d2.css">
+    <link rel="stylesheet" href="src.2e4471c9.css">
     <link rel="stylesheet" href="all.a409f9ce.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&amp;display=swap" rel="stylesheet">
+    <script>function t() {
+        n("content", "contentGrid", "contentList"), s(document.getElementsByClassName("secondRectangle"), "secondRectangle", "mainRectangle"), s(document.getElementsByClassName("topTextDescGrid"), "topTextDescGrid", "topTextDescList"), s(document.getElementsByClassName("lineGrid"), "lineGrid", "lineList"), s(document.getElementsByClassName("bottomTextDescGrid"), "bottomTextDescGrid", "bottomTextDescList"), s(document.getElementsByClassName("rightBottomButtonGrid"), "rightBottomButtonGrid", "rightBottomButtonList")
+    }
+
+    function e() {
+        n("content", "contentList", "contentGrid"), s(document.getElementsByClassName("mainRectangle"), "mainRectangle", "secondRectangle"), s(document.getElementsByClassName("topTextDescList"), "topTextDescList", "topTextDescGrid"), s(document.getElementsByClassName("lineList"), "lineList", "lineGrid"), s(document.getElementsByClassName("bottomTextDescList"), "bottomTextDescList", "bottomTextDescGrid"), s(document.getElementsByClassName("rightBottomButtonList"), "rightBottomButtonList", "rightBottomButtonGrid")
+    }
+
+    function s(t, e, s) {
+        Array.from(t).forEach(function (t) {
+            t.classList.remove(e), t.classList.add(s)
+        })
+    }
+
+    function n(t, e, s) {
+        var n = document.getElementById(t);
+        n.classList.remove(e), n.classList.add(s)
+    }</script>
     <meta charset="UTF-8">
 </head>
 <body>
@@ -70,67 +87,72 @@
                     </table>
                 </div>
                 <div class="changeView">
-                    <div class="changeViewText">Change view :</div>
-                    <button class="changeViewButtonsLeft" onclick="test()"><i class="fas fa-align-justify"></i></button>
-                    <button class="changeViewButtonsRight"><i class="fas fa-th-large"></i></button>
-                </div>
-                <div class="contentBlock">
-                    <div class="mainRectangle" id="mainRectangle">
-                        <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
-                        <img class="image" src="preview.c45163be.png" alt="Preview">
-                        <div class="description">
-                            <div class="topTextDesc">Ubi est regius zirbus? Ubi est regius zirbus?</div>
-                            <div class="line"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
-                                    class="fas fa-clock"> 2 days ago</i></div>
-                            <div class="bottomTextDesc">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
-                                genetrix. Fortis lunas ducunt ad genetrix.
-                            </div>
-                            <button class="rightBottomButton"><i class="fas fa-arrow-right"></i></button>
-                        </div>
+                    <div class="changeViewText">Change view :
+                        <button class="changeViewButtonsLeft" onclick="listView()"><i class="fas fa-align-justify"></i>
+                        </button>
+                        <button class="changeViewButtonsRight" onclick="gridView()"><i class="fas fa-th-large"></i>
+                        </button>
                     </div>
                 </div>
-                <div class="contentBlock">
-                    <div class="mainRectangle" id="mainRectangle">
-                        <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
-                        <img class="image" src="preview.c45163be.png" alt="Preview">
-                        <div class="description">
-                            <div class="topTextDesc">Ubi est regius zirbus? Ubi est regius zirbus?</div>
-                            <div class="line"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
-                                    class="fas fa-clock"> 2 days ago</i></div>
-                            <div class="bottomTextDesc">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
-                                genetrix. Fortis lunas ducunt ad genetrix.
+                <div class="contentList" id="content">
+                    <div class="contentBlock">
+                        <div class="mainRectangle" id="mainRectangle">
+                            <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
+                            <img class="image" src="preview.c45163be.png" alt="Preview">
+                            <div class="descriptionList">
+                                <div class="topTextDescList">Ubi est regius zirbus? Ubi est regius zirbus?</div>
+                                <div class="lineList"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
+                                        class="fas fa-clock"> 2 days ago</i></div>
+                                <div class="bottomTextDescList">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
+                                    genetrix. Fortis lunas ducunt ad genetrix.
+                                </div>
+                                <button class="rightBottomButtonList"><i class="fas fa-arrow-right"></i></button>
                             </div>
-                            <button class="rightBottomButton"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-                </div>
-                <div class="contentBlock">
-                    <div class="mainRectangle" id="mainRectangle">
-                        <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
-                        <img class="image" src="preview.c45163be.png" alt="Preview">
-                        <div class="description">
-                            <div class="topTextDesc">Ubi est regius zirbus? Ubi est regius zirbus?</div>
-                            <div class="line"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
-                                    class="fas fa-clock"> 2 days ago</i></div>
-                            <div class="bottomTextDesc">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
-                                genetrix. Fortis lunas ducunt ad genetrix.
+                    <div class="contentBlock">
+                        <div class="mainRectangle" id="mainRectangle">
+                            <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
+                            <img class="image" src="preview.c45163be.png" alt="Preview">
+                            <div class="descriptionList">
+                                <div class="topTextDescList">Ubi est regius zirbus? Ubi est regius zirbus?</div>
+                                <div class="lineList"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
+                                        class="fas fa-clock"> 2 days ago</i></div>
+                                <div class="bottomTextDescList">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
+                                    genetrix. Fortis lunas ducunt ad genetrix.
+                                </div>
+                                <button class="rightBottomButtonList"><i class="fas fa-arrow-right"></i></button>
                             </div>
-                            <button class="rightBottomButton"><i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-                </div>
-                <div class="contentBlock">
-                    <div class="mainRectangle" id="mainRectangle">
-                        <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
-                        <img class="image" src="preview.c45163be.png" alt="Preview">
-                        <div class="description">
-                            <div class="topTextDesc">Ubi est regius zirbus? Ubi est regius zirbus?</div>
-                            <div class="line"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
-                                    class="fas fa-clock"> 2 days ago</i></div>
-                            <div class="bottomTextDesc">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
-                                genetrix. Fortis lunas ducunt ad genetrix.
+                    <div class="contentBlock">
+                        <div class="mainRectangle" id="mainRectangle">
+                            <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
+                            <img class="image" src="preview.c45163be.png" alt="Preview">
+                            <div class="descriptionList">
+                                <div class="topTextDescList">Ubi est regius zirbus? Ubi est regius zirbus?</div>
+                                <div class="lineList"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
+                                        class="fas fa-clock"> 2 days ago</i></div>
+                                <div class="bottomTextDescList">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
+                                    genetrix. Fortis lunas ducunt ad genetrix.
+                                </div>
+                                <button class="rightBottomButtonList"><i class="fas fa-arrow-right"></i></button>
                             </div>
-                            <button class="rightBottomButton"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="contentBlock">
+                        <div class="mainRectangle" id="mainRectangle">
+                            <div class="videoCircle"><img src="insideCircle.6f213a87.png" alt="video icon"></div>
+                            <img class="image" src="preview.c45163be.png" alt="Preview">
+                            <div class="descriptionList">
+                                <div class="topTextDescList">Ubi est regius zirbus? Ubi est regius zirbus?</div>
+                                <div class="lineList"><i class="fas fa-heart"> 150</i><i class="fa fa-clone"> 30</i><i
+                                        class="fas fa-clock"> 2 days ago</i></div>
+                                <div class="bottomTextDescList">Fortis lunas ducunt ad genetrix. Fortis lunas ducunt ad
+                                    genetrix. Fortis lunas ducunt ad genetrix.
+                                </div>
+                                <button class="rightBottomButtonList"><i class="fas fa-arrow-right"></i></button>
+                            </div>
                         </div>
                     </div>
                 </div>
