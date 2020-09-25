@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "parcel src/index.pug",
-    "build": "parcel build src/index.pug -d docs --public-url ./"
+    "build": "parcel build src/index.pug -d docs ./"
   },
   "keywords": [],
   "author": "",
