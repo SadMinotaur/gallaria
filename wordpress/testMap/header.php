@@ -19,11 +19,12 @@
         <div class="leftBlock"><img class="logoImage" src="<?php echo get_template_directory_uri(); ?>/logo.cecfdd8f.png" alt="logo">
             <div class="buttons">
                 <ul>
-                    <li><i class="fas fa-home"></i><a href="#"> HOME</a></li>
-                    <li><i class="fas fa-film"></i><a href="#"> VIDEOS</a></li>
-                    <li><i class="fas fa-image"></i><a href="#"> IMAGES</a></li>
-                    <li><i class="fas fa-newspaper"></i><a href="#"> ARTICLES</a></li>
-                    <li><i class="fas fa-newspaper"></i><a href="#"> FREEBIES</a></li>
+                    <li><i class="fas fa-home"></i><a href="http://localhost/index.php/home/"> HOME</a></li>
+                    <li><i class="fas fa-film"></i><a href="http://localhost/index.php/videos/"> VIDEOS</a></li>
+                    <li><i class="fas fa-image"></i><a href="http://localhost/index.php/images/"> IMAGES</a></li>
+                    <li><i class="fas fa-newspaper"></i><a href="http://localhost/index.php/articles/"> ARTICLES</a></li>
+                    <li><i class="fas fa-newspaper"></i><a href="http://localhost/index.php/freebees/"> FREEBIES</a></li>
+                    <li><i class="fas fa-newspaper"></i><a href="http://localhost/index.php/contacts/"> CONTACTS</a></li>
                 </ul>
             </div>
             <div class="about">About Us</div>
@@ -62,7 +63,7 @@
                         <button class="shareButtonRight"><i class="fab fa-pinterest"></i></button>
                     </div>
                 </div>
-                <video class="video" src="" controls alt="Your browser does not support the video tag."></video>
+                <!-- <video class="video" src="" controls alt="Your browser does not support the video tag."></video>
                 <div class="shareLabel">
                     <table>
                         <tr>
@@ -79,5 +80,4 @@
                         <button class="changeViewButtonsRight" onclick="gridView()"><i class="fas fa-th-large"></i>
                         </button>
                     </div>
-                </div>
-                
+                </div> -->
